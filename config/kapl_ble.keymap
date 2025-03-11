@@ -9,9 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define DEF 0
-#define ADJ 1
-
 &lt { quick-tap-ms = <200>; };
 &mt { quick-tap-ms = <200>; };
 
@@ -25,7 +22,7 @@
 		&kp TAB   &kp Q    &kp W    &kp E    &kp R   &kp T    &kp LPAR           &kp RPAR  &kp Y     &kp U    &kp I     &kp O     &kp P      &kp MINUS
 		&kp LCTRL &kp A    &kp S    &kp D    &kp F   &kp G    &kp LBKT           &kp RBKT  &kp H     &kp J    &kp K     &kp L     &kp SEMI   &kp SQT
 		&kp LSHFT &kp Z    &kp X    &kp C    &kp V   &kp B    &kp PG_UP          &kp PG_DN &kp HOME  &kp END  &kp N     &kp M     &kp COMMA  &kp DOT
-		&kp LCTRL &kp LWIN &kp LALT &kp LALT &lt ADJ &kp BSPC &kp ENTER          &kp DEL   &kp SPACE &lt LWR  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
+		&kp LCTRL &kp LWIN &kp LALT &kp LALT &lt 1   &kp BSPC &kp ENTER          &kp DEL   &kp SPACE &lt 1    &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
 						>;
 				};
 
