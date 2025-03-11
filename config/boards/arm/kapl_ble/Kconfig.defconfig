@@ -3,21 +3,21 @@
 # SPDX-License-Identifier: MIT
 #
 
-if BOARD_JIRAN_BLE_LITE_LEFT
+if BOARD_KAPL_BLE_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Jiran BLE Lite"
+	default "Kapl BLE"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
-endif # BOARD_JIRAN_BLE_LITE_LEFT
+endif # BOARD_KAPL_BLE_LEFT
 
 
-if BOARD_JIRAN_BLE_LITE_LEFT || BOARD_JIRAN_BLE_LITE_RIGHT
+if BOARD_KAPL_BLE_LEFT || BOARD_KAPL_BLE_RIGHT
 
 config BOARD
-	default "jiran_ble_lite"
+	default "kapl_ble"
 
 config ZMK_SPLIT
 	default y
@@ -32,4 +32,4 @@ config USB_NRFX
 
 endif # USB_DEVICE_STACK
 
-endif # BOARD_JIRAN_BLE_LITE_LEFT || BOARD_JIRAN_BLE_LITE_RIGHT
+endif # BOARD_KAPL_BLE_LEFT || BOARD_KAPL_BLE_RIGHT

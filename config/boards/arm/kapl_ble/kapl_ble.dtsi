@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-	model = "jiran_ble_lite";
-	compatible = "jiran_ble_lite";
+	model = "kapl_ble";
+	compatible = "kapl_ble";
 
 	chosen {
 		zephyr,code-partition = &code_partition;

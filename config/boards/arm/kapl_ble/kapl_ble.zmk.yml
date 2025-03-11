@@ -1,0 +1,14 @@
+file_format: "1"
+id: kapl_ble
+name: Kapl BLE
+url: https://github.com/keyzog/kapl-ble-zmk-config
+type: board
+arch: arm
+features:
+   - keys
+outputs:
+   - usb
+   - ble
+siblings:
+   - kapl_ble_left
+   - kapl_ble_right

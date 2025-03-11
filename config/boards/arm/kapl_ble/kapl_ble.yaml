@@ -1,0 +1,17 @@
+identifier: kapl_ble
+name: Kapl BLE
+url: https://github.com/keyzog/kapl-ble-zmk-config
+type: keyboard
+arch: arm
+toolchain:
+   - zephyr
+   - gnuarmemb
+   - xtools
+supported:
+   - adc
+   - usb_device
+   - ble
+   - ieee802154
+   - pwm
+   - watchdog
+   - gpio
