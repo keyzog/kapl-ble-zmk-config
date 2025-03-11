@@ -13,9 +13,12 @@
 #define LWR 1
 #define ADJ 2
 
+&lt { quick-tap-ms = <200>; };
+&mt { quick-tap-ms = <200>; };
+
 / {
     keymap {
-        compatible =  "zmk,keymap" ;
+        compatible =  "zmk,keymap";
 
         default_layer {
 // --------------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +52,6 @@
    &kp LCTRL &kp LWIN &kp LALT &kp LALT &mo 1      &kp BSPC &kp ENTER          &kp DEL   &kp SPACE &mo 1    &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
             >;
         };
-    };
         
         adjust_layer {
 						bindings = <
@@ -61,4 +63,6 @@
 	&none         &none         &none         &none         &trans        &trans        &trans           &trans   &trans        &trans        &none         &none         &none         &none
 						>;
 				};
+				
+		};
 };
