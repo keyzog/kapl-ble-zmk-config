@@ -7,7 +7,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
 
 #define DEF 0
 #define ADJ 1
@@ -21,8 +20,8 @@
 
 				default_layer {
 						bindings = <
-		&sys_reset   &bt BT_CLR   &bt BT_SEL 0   &out OUT_TOG   &bootloader   &bootloader   &bootloader      &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader
-		&kp TAB   &kp Q    &kp W    &kp E    &kp R    &kp T    &kp LPAR           &kp RPAR  &kp Y     &kp U    &kp I     &kp O     &kp P      &kp MINUS
+		&sys_reset    &bootloader   &none         &none         &none         &none         &none      &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader
+		&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none           &kp RPAR  &kp Y     &kp U    &kp I     &kp O     &kp P      &kp MINUS
 		&kp LCTRL &kp A    &kp S    &kp D    &kp F    &kp G    &kp LBKT           &kp RBKT  &kp H     &kp J    &kp K     &kp L     &kp SEMI   &kp SQT
 		&kp LSHFT &kp Z    &kp X    &kp C    &kp V    &kp B    &kp PG_UP          &kp PG_DN &kp HOME  &kp END  &kp N     &kp M     &kp COMMA  &kp DOT
 		&kp LCTRL &kp LWIN &kp LALT &kp LALT &mo ADJ  &kp BSPC &kp ENTER          &kp DEL   &kp SPACE &mo ADJ  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
@@ -34,7 +33,7 @@
 						bindings = <
 	&sys_reset    &bootloader   &none         &none         &none         &none         &none            &none    &none         &none         &none         &none         &bootloader   &sys_reset
 	&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none            &none    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-	&out OUT_TOG  &none         &none         &none         &none         &none         &none            &none    &none         &none         &none         &none         &none         &out OUT_TOG
+	&none         &none         &none         &none         &none         &none         &none            &none    &none         &none         &none         &none         &none         &none
 	&none         &none         &none         &none         &none         &none         &none            &none    &none         &none         &none         &none         &none         &none
 	&none         &none         &none         &none         &none         &none         &none            &none    &none         &none         &none         &none         &none         &none
 	&none         &none         &none         &none         &trans        &trans        &trans           &trans   &trans        &trans        &none         &none         &none         &none
