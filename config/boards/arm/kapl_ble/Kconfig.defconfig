@@ -16,20 +16,26 @@ endif # BOARD_KAPL_BLE_LEFT
 
 if BOARD_KAPL_BLE_LEFT || BOARD_KAPL_BLE_RIGHT
 
-config BOARD
-	default "kapl_ble"
-
-config ZMK_SPLIT
-	default y
-
-config BT_CTLR
-	default BT
-
 if USB_DEVICE_STACK
 
 config USB_NRFX
 	default y
 
 endif # USB_DEVICE_STACK
+
+config BOARD
+	default "kapl_ble"
+
+config BT_CTLR
+	default BT
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+	default y
+
+config ZMK_USB
+	default y
 
 endif # BOARD_KAPL_BLE_LEFT || BOARD_KAPL_BLE_RIGHT
