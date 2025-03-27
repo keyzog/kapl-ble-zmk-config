@@ -14,6 +14,9 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_USB
 	default y
 
+config ZMK_BLE
+	default y
+
 endif # BOARD_KAPL_BLE_LEFT
 
 
@@ -33,9 +36,6 @@ config BT_CTLR
 	default BT
 
 config ZMK_SPLIT
-	default y
-
-config ZMK_BLE
 	default y
 
 endif # BOARD_KAPL_BLE_LEFT || BOARD_KAPL_BLE_RIGHT
