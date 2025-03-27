@@ -5,10 +5,10 @@ url: https://github.com/keyzog/kapl-ble-zmk-config
 type: board
 arch: arm
 features:
-   - keys
+  - keys
 outputs:
-   - usb
-   - ble
+  - usb
+  - ble
 siblings:
    - kapl_ble_left
    - kapl_ble_right
