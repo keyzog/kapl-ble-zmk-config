@@ -10,5 +10,5 @@ outputs:
   - usb
   - ble
 siblings:
-   - kapl_ble_left
-   - kapl_ble_right
+  - kapl_ble_left
+  - kapl_ble_right
