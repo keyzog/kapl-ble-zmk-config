@@ -25,8 +25,8 @@ config BOARD
 config ZMK_SPLIT
 	default y
 
-config BT_CTLR
-	default BT
+config ZMK_BLE
+	default y
 
 if USB_DEVICE_STACK
 
