@@ -8,6 +8,9 @@ if BOARD_KAPL_BLE_LEFT
 config ZMK_KEYBOARD_NAME
 	default "Kapl BLE"
 
+config ZMK_BLE
+	default y
+
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
