@@ -15,4 +15,5 @@
 include:
    - board: kapl_ble_left
    - board: kapl_ble_right
-   - board: settings_reset
+   - board: kapl_ble_left
+     shield: settings_reset
