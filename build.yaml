@@ -15,3 +15,4 @@
 include:
    - board: kapl_ble_left
    - board: kapl_ble_right
+   - board: settings_reset
