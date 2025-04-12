@@ -21,11 +21,11 @@
 
 				default_layer {
 						bindings = <
-		&kp ESC     &kp N1     &kp N2    &kp N3    &kp N4   &kp N5    &kp N6              &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader   &bootloader
-		&kp TAB     &kp Q      &kp W     &kp E     &kp R    &kp T     &kp Y              &kp RPAR  &kp Y     &kp U    &kp I     &kp O     &kp P      &kp MINUS
-		&kp LCTRL   &kp A      &kp S     &kp D     &kp F    &kp G     &kp H           &kp RBKT  &kp H     &kp J    &kp K     &kp L     &kp SEMI   &kp SQT
-		&kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp N          &kp PG_DN &kp HOME  &kp END  &kp N     &kp M     &kp COMMA  &kp DOT
-		&kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo ADJ  &kp BSPC  &kp ENTER          &kp DEL   &kp SPACE &mo ADJ  &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT
+		&kp ESC     &kp N1     &kp N2    &kp N3    &kp N4   &kp N5    &kp N6            &kp ESC     &kp N1     &kp N2    &kp N3    &kp N4   &kp N5    &kp N6   
+		&kp TAB     &kp Q      &kp W     &kp E     &kp R    &kp T     &kp Y             &kp TAB     &kp Q      &kp W     &kp E     &kp R    &kp T     &kp Y    
+		&kp LCTRL   &kp A      &kp S     &kp D     &kp F    &kp G     &kp H             &kp LCTRL   &kp A      &kp S     &kp D     &kp F    &kp G     &kp H    
+		&kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp N             &kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp N    
+		&kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo ADJ  &kp BSPC  &kp ENTER         &kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo ADJ  &kp BSPC  &kp ENTER
 						>;
 				};
 
