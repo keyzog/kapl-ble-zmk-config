@@ -27,8 +27,8 @@
 		&kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp N             &kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp N    
 		&kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo ADJ  &kp BSPC  &kp ENTER         &kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo ADJ  &kp BSPC  &kp ENTER
 						>;
-						
-						sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 				};
 
 
