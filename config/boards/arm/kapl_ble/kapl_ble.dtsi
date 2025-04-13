@@ -50,7 +50,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)        RC(4,7) RC(4,8) R
 		compatible = "alps,ec11";
 		a-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <15>;
+		steps = <30>;
 		status = "okay";
 	};
 
