@@ -106,9 +106,9 @@
 				symbols_layer {
 						bindings = <
 	&none   &none   &none     &none      &none      &none     &none                      &none    &none      &none      &none      &none     &none     &none
-	&none   &none   &none     &kp STAR   &kp MINUS  &kp PLUS  &kp CARET                  &none    &kp BSLH   &kp EXCL   &kp EQUAL  &kp GT    &kp F11   &none
-	&none   &none   &kp LBKT  &kp LBKT   &kp LPAR   &kp LT    &none                      &none    &kp UNDER  &kp DOT    &kp COMMA  &kp DQT   &kp RPAR  &kp SEMI
-	&none   &none   &kp RBKT  &kp RBKT   &kp RPAR   &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &kp APOS  &kp FSLH  &kp BSLH
+	&none   &none   &none     &kp STAR   &kp MINUS  &kp PLUS  &kp CARET                  &none    &kp PIPE   &kp EXCL   &kp EQUAL  &kp GT    &kp F11   &none
+	&none   &none   &kp LBKT  &kp LBRC   &kp LPAR   &kp LT    &none                      &none    &kp UNDER  &kp DOT    &kp COMMA  &kp DQT   &kp RPAR  &kp SEMI
+	&none   &none   &kp RBKT  &kp RBRC   &kp RPAR   &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &kp APOS  &kp FSLH  &kp BSLH
 	&none   &none   &none     &none      &trans     &trans    &mo SYS                    &mo SYS  &trans     &trans     &none      &none     &none     &none
 						>;
 				};
@@ -119,7 +119,7 @@
 	&none   &kp F1  &kp F2   &kp F3  &kp F4   &kp F5    &none            &none    &kp F6        &kp F7        &kp F8       &kp F9        &kp F10  &kp F11
 	&none   &none   &none    &none   &none    &none     &to DOTA         &none    &kp LA(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LA(RIGHT)  &none    &kp F12
 	&none   &none   &none    &none   &none    &none     &to GAME         &none    &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &none    &none
-	&none   &none   &none    &none   &none    &to ENG   &to RUS          &none    &none         &none         &none       &none          &none    &none
+	&none   &none   &none    &none   &none    &to_eng   &to_rus          &none    &none         &none         &none       &none          &none    &none
 	&none   &none   &none    &none   &trans   &trans    &trans           &trans   &trans        &trans        &none       &none          &none    &none
 						>;
 				};
