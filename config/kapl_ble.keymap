@@ -109,7 +109,7 @@
 	&none   &none   &none     &kp STAR   &kp MINUS  &kp PLUS  &kp CARET                  &none    &kp PIPE   &kp EXCL   &kp EQUAL  &kp GT    &kp F11   &none
 	&none   &none   &kp LBKT  &kp LBRC   &kp LPAR   &kp LT    &none                      &none    &kp UNDER  &kp DOT    &kp COMMA  &kp DQT   &kp SEMI  &none
 	&none   &none   &kp RBKT  &kp RBRC   &kp RPAR   &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &kp APOS  &kp FSLH  &kp BSLH
-	&none   &none   &none     &none      &trans     &trans    &mo SYS                    &mo SYS  &trans     &trans     &none      &none     &none     &none
+	&none   &none   &none     &mo SYS    &trans     &none     &none                      &none    &none      &trans     &mo SYS    &none     &none     &none
 						>;
 				};
 
