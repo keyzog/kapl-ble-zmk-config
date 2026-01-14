@@ -54,8 +54,8 @@
 
 			ZMK_MACRO(
 					plus_minus,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N7>
@@ -65,8 +65,8 @@
 
 			ZMK_MACRO(
 					approx_equal,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N2 &kp KP_N4 &kp KP_N7>
@@ -76,8 +76,8 @@
 
 			ZMK_MACRO(
 					copyright,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N9>
@@ -87,8 +87,8 @@
 
 			ZMK_MACRO(
 					ellipsis,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N3 &kp KP_N3>
@@ -98,8 +98,8 @@
 
 			ZMK_MACRO(
 					en_dash,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N0>
@@ -109,8 +109,8 @@
 
 			ZMK_MACRO(
 					em_dash,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N5 &kp KP_N1>
@@ -120,8 +120,8 @@
 
 			ZMK_MACRO(
 					numero_sign,
-					wait-ms = <10>;
-					tap-ms = <25>;
+					wait-ms = <40>;
+					tap-ms = <40>;
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N7>
@@ -185,7 +185,7 @@
 	&none   &none                    &kp AT_SIGN  &mt &numero_sign HASH   &kp DOLLAR  &none     &none               &none    &none      &none               &none      &none           &none     &none
 	&none   &none                    &kp PERCENT  &kp STAR                &kp MINUS   &kp PLUS  &kp CARET           &none    &kp PIPE   &kp EXCL            &kp EQUAL  &kp GT          &none     &none
 	&none   &mt &approx_equal TILDE  &kp LBKT     &kp LBRC                &kp LPAR    &kp LT    &none               &none    &kp UNDER  &mt &ellipsis DOT   &kp COMMA  &kp DQT         &kp SEMI  &none
-	&none   &none                    &kp RBKT     &kp RBRC                &kp RPAR    &kp GT    &none               &none    &kp AMPS   &kp QMARK           &kp COLON  &mt GRAVE APOS  &kp FSLH  &kp BSLH
+	&none   &approx_equal            &kp RBKT     &kp RBRC                &kp RPAR    &kp GT    &none               &none    &kp AMPS   &kp QMARK           &kp COLON  &mt GRAVE APOS  &kp FSLH  &kp BSLH
 	&none   &none                    &none        &mo SYS                 &trans      &none     &none               &none    &trans     &none               &mo SYS    &none           &none     &none
 						>;
 				};
