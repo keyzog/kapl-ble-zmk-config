@@ -21,6 +21,15 @@
 &mt { quick-tap-ms = <200>; };
 
 / {
+		combos {
+        compatible = "zmk,combos";
+        combo_plus_minus {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&plus_minus>;
+        };
+    };
+
 		behaviors {
 			ht_numero: ht_numero {
 				compatible = "zmk,behavior-hold-tap";
@@ -79,17 +88,6 @@
 					bindings
 							= <&macro_press   &kp LALT>
 							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N7 &kp KP_N7>
-							, <&macro_release &kp LALT>
-							;
-			)
-
-			ZMK_MACRO(
-					copyright,
-					wait-ms = <10>;
-					tap-ms = <25>;
-					bindings
-							= <&macro_press   &kp LALT>
-							, <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N6 &kp KP_N9>
 							, <&macro_release &kp LALT>
 							;
 			)
