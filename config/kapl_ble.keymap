@@ -63,7 +63,7 @@
 		&kp TAB     &kp Q      &kp W     &kp E     &kp R    &kp T     &kp PG_UP             &kp END   &kp Y      &kp U      &kp I      &kp O     &kp P      &kp EQUAL
 		&kp GRAVE   &kp A      &kp S     &kp D     &kp F    &kp G     &kp LBKT              &kp RBKT  &kp H      &kp J      &kp K      &kp L     &kp SEMI   &kp SINGLE_QUOTE
 		&kp LSHFT   &kp Z      &kp X     &kp C     &kp V    &kp B     &kp &none             &kp DEL   &kp N      &kp M      &kp COMMA  &kp DOT   &kp SLASH  &kp BSLH
-		&kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo SYMB &kp BSPC  &lt ADJ ENTER         &to_rus   &kp SPACE  &mo SYMB   &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT
+		&kp LCTRL   &kp LWIN   &kp LALT  &kp LALT  &mo SYMB &kp BSPC  &lt ADJ ENTER         &to_rus   &kp SPACE  &none      &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT
 						>;
 
 						sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -109,7 +109,7 @@
 	&none   &none   &none     &kp STAR   &kp MINUS  &kp PLUS  &kp CARET                  &none    &kp PIPE   &kp EXCL   &kp EQUAL  &kp GT    &kp F11   &none
 	&none   &none   &kp LBKT  &kp LBRC   &kp LPAR   &kp LT    &none                      &none    &kp UNDER  &kp DOT    &kp COMMA  &kp DQT   &kp SEMI  &none
 	&none   &none   &kp RBKT  &kp RBRC   &kp RPAR   &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &kp APOS  &kp FSLH  &kp BSLH
-	&none   &none   &none     &mo SYS    &trans     &none     &none                      &none    &none      &trans     &mo SYS    &none     &none     &none
+	&none   &none   &none     &mo SYS    &trans     &none     &none                      &none    &trans     &none      &mo SYS    &none     &none     &none
 						>;
 				};
 
