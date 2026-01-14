@@ -108,7 +108,7 @@
 	&none   &none      &kp AT_SIGN  &kp HASH   &kp DOLLAR  &none     &none                      &none    &none      &none      &none      &none           &none     &none
 	&none   &none      &kp PERCENT  &kp STAR   &kp MINUS   &kp PLUS  &kp CARET                  &none    &kp PIPE   &kp EXCL   &kp EQUAL  &kp GT          &none     &none
 	&none   &kp TILDE  &kp LBKT     &kp LBRC   &kp LPAR    &kp LT    &none                      &none    &kp UNDER  &kp DOT    &kp COMMA  &kp DQT         &kp SEMI  &none
-	&none   &none      &kp RBKT     &kp RBRC   &kp RPAR    &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &mt APOS GRAVE  &kp FSLH  &kp BSLH
+	&none   &none      &kp RBKT     &kp RBRC   &kp RPAR    &kp GT    &none                      &none    &kp AMPS   &kp QMARK  &kp COLON  &mt GRAVE APOS  &kp FSLH  &kp BSLH
 	&none   &none      &none        &mo SYS    &trans      &none     &none                      &none    &trans     &none      &mo SYS    &none           &none     &none
 						>;
 				};
