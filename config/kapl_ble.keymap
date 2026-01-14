@@ -23,10 +23,26 @@
 / {
 		combos {
         compatible = "zmk,combos";
+				
         combo_plus_minus {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <18 19>;
             bindings = <&plus_minus>;
+						layers = <4>;
+        };
+				
+        combo_en_dash {
+            timeout-ms = <50>;
+            key-positions = <18 17>;
+            bindings = <&en_dash>;
+						layers = <4>;
+        };
+				
+        combo_em_dash {
+            timeout-ms = <50>;
+            key-positions = <18 17 16>;
+            bindings = <&em_dash>;
+						layers = <4>;
         };
     };
 
